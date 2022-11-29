@@ -11,7 +11,7 @@ Crear el proyecto.
 5. activa el modo desarrollador en los oculus (mas info: https://business.oculus.com/support/1310318635799580/).
 
 Integracion de Oculus
-1. Dentro del proyecto en la seccion Edit >> Proyect Settings >> XR Plugin Management Instala el XR Plugin Management.
+1. Dentro del proyecto en la seccion Edit >> Proyect Settings >> XR Plugin Management: Instala el XR Plugin Management.
 2. Activa Windows Oculus y Android Oculus.
 3. Dirigete a la seccion Edit >> Quality, elimina todas las calidades menos uno y asigna estos valores:
   Name: VR
@@ -27,9 +27,12 @@ Integracion de Oculus
   Color Space: Lineal
   Auto Graphics API: off
   Graphics APIs: (añade OpenGLES3)
-  
-  
-  
-  
-5. descarga el package manager "Oculus Integration" desde la assetstore de unity: https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
-
+  Multithreaded Rendering: on
+  Static Batching: on
+  Dynamic Batching: on
+  GPU Compute Skinning: on
+  Minimum API Level: Level 23
+  Target API Level: Automatic
+  Install Location: Automatic 
+6. Descarga e impora el package manager "Oculus Integration" desde la assetstore de unity: https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
+7. Update Oculus presiona: yes >> Restart Unity: Restart >> Update Spatializer: Upgrate >> Restart Unity: Restart
