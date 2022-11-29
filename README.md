@@ -50,7 +50,7 @@
   > Install Location: Automatic 
 6. Descarga e impora el package manager "Oculus Integration" desde la assetstore de unity: https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
 7. Presiona la siguiente secuencia de ventanas 
- - Update Oculus presiona: yes 
+ - Update Oculus: yes 
  - Restart Unity: Restart 
  - Update Spatializer: Upgrate 
  - Restart Unity: Restart
