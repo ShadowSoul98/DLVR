@@ -1,7 +1,7 @@
 # DLVR
 ## Para el Modular mediante oculus.
 
-### Configuracion de ambiente unity previo a descargar el resositorio.
+### Configuracion de ambiente unity previo a descargar el repositorio.
 
 ### Crear el proyecto.
 1. descargar Unity Hub.
@@ -13,7 +13,7 @@
 ### Integracion de Oculus
 1. Dentro del proyecto en la seccion Edit >> Proyect Settings >> XR Plugin Management: Instala el XR Plugin Management.
 2. Activa Windows Oculus y Android Oculus.
-3. Dirigete a la seccion Edit >> Quality, elimina todas las calidades menos uno y asigna estos valores:
+3. Dirigete a la seccion Edit >> Projetc Settings >> Quality, elimina todas las calidades menos uno y asigna estos valores:
   > Name: VR
   
   > Pixel Light Count: 1
